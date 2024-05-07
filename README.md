@@ -7,3 +7,9 @@
 ```bash
 python main.py
 ```
+
+- Run unittest
+
+```bash
+python test_square.py
+```

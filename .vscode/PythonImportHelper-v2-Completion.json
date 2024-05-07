@@ -1,0 +1,37 @@
+[
+    {
+        "label": "unittest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "unittest",
+        "description": "unittest",
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "unittest",
+        "description": "unittest",
+        "isExtraImport": true,
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "TestSquare",
+        "kind": 6,
+        "importPath": "tests.test_square",
+        "description": "tests.test_square",
+        "peekOfCode": "class TestSquare(TestCase):\n  def test_area(self):\n    square = Square(10)\n    area = square.area()\n    self.assertEqual(area, 100)\nif __name__ == \"__main__\":\n  unittest.main()",
+        "detail": "tests.test_square",
+        "documentation": {}
+    },
+    {
+        "label": "Square",
+        "kind": 6,
+        "importPath": "square",
+        "description": "square",
+        "peekOfCode": "class Square:\n  def __init__(self, length):\n    self.length = length\n  def area(self):\n    return self.length ** 2",
+        "detail": "square",
+        "documentation": {}
+    }
+]
