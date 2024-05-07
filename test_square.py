@@ -8,6 +8,3 @@ class TestSquare(TestCase):
     square = Square(10)
     area = square.area()
     self.assertEqual(area, 100)
-
-if __name__ == "__main__":
-  main(verbosity = 2)
